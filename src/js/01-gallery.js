@@ -1,7 +1,7 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import _ from 'simplelightbox/dist/simple-lightbox.min.css';
 // Change code below this line
 const ul = document.querySelector('.gallery');
 
@@ -26,5 +26,4 @@ const lightbox = new SimpleLightbox('.gallery li a', {
   captionDelay: 250,
 });
 
-console.log(galleryItems);
 console.log(galleryItems);
