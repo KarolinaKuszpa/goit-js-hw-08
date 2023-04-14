@@ -22,8 +22,10 @@ alt="${item.description}" />
   );
 });
 const lightbox = new SimpleLightbox('.gallery li a', {
+  captions: true,
   captionData: 'alt',
   captionDelay: 250,
+  captionPosition: 'bottom',
 });
 
 console.log;
